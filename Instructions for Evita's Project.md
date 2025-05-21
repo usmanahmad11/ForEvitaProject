@@ -422,25 +422,6 @@ li {
 
 ---
 
-## 7. How to ZIP
-
-After creating all these files in the correct structure:
-
-- On Windows: Right-click the `MoodTunes` folder > "Send to" > "Compressed (zipped) folder"
-- On Mac: Right-click the `MoodTunes` folder > "Compress"
-
----
-
-## 8. Troubleshooting
-
-- **MongoDB not connecting?**  
-  Check `.env` and MongoDB status (`mongod` running?).
-- **Google login issues?**  
-  Double-check Google client ID, secret, and redirect URI.
-- **CORS errors?**  
-  Add CORS middleware to backend if needed.
-- **Frontend can't find backend?**  
-  Verify ports and `localhost` settings.
 
 ---
 
